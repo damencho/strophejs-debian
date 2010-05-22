@@ -1,0 +1,13 @@
+strophejs for Debian
+--------------------
+
+In order to make use of strophejs in your html, include the following lines in
+your html header:
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/strophe/strophe.js"></script>
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/jquery/jquery.js"></script>
+
+ -- Marcelo Jorge Vieira <metal@alucinados.com>  Sun, 29 Mar 2009 14:20:11 -0300

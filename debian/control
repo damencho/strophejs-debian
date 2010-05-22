@@ -1,0 +1,23 @@
+Source: strophejs
+Section: web
+Priority: optional
+Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Uploaders: Marcelo Jorge Vieira (metal) <metal@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), yui-compressor
+Standards-Version: 3.8.4
+Homepage: http://code.stanziq.com/strophe/
+Vcs-Git: git://git.debian.org/git/pkg-xmpp/strophejs.git
+Vcs-Browser: http://git.debian.org/?p=pkg-xmpp/strophejs.git;a=summary
+
+Package: libjs-strophe
+Architecture: all
+Depends: ${misc:Depends}, libjs-jquery
+Recommends: javascript-common
+Description: Library for writing XMPP clients
+ Strophe provides the following features:
+ .
+   * XMPP compliant
+   * TLS support via SChannel, GNUTLS or OpenSSL
+   * SASL authentication using ANONYMOUS, DIGEST-MD5 or PLAIN methods
+     as well as legacy jabber authentication
+   * Customizable logging and memory management
