@@ -1,3 +1,9 @@
+strophejs (1.0.1.dfsg-2) unstable; urgency=low
+
+  * Added watch file 
+
+ -- Marcelo Jorge Vieira (metal) <metal@debian.org>  Wed, 02 Jun 2010 14:41:16 -0300
+
 strophejs (1.0.1.dfsg-1) unstable; urgency=low
 
   * Initial release (Closes: #521316)
