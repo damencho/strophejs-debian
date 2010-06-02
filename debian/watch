@@ -1,0 +1,3 @@
+version=3
+opts=dversionmangle=s/\.dfsg$// \
+http://code.stanziq.com/strophe/strophejs/releases/strophejs-(.*).tar.gz
