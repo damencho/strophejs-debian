@@ -1,0 +1,16 @@
+Use something like the script below to update from Git
+
+#!/bin/bash
+
+VERSION=1.1.3
+
+echo "*.min.js export-ignore" > .gitattributes
+echo ".gitignore export-ignore" >> .gitattributes
+echo "$VERSION" > version.txt
+
+# assumes there is a tag named "release-$VERSION"
+git archive --worktree-attributes --format tar --prefix strophejs-$VERSION/ -o ../strophejs_${VERSION}+dfsg.orig.tar release-$VERSION
+tar --transform "s,^,strophejs-$VERSION/,"  -rf ../strophejs_${VERSION}+dfsg.orig.tar version.txt
+cd ..
+
+bzip2 strophejs_${VERSION}+dfsg.orig.tar
