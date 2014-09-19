@@ -1,5 +1,3 @@
 *.js /usr/share/javascript/strophe/
 plugins /usr/share/javascript/strophe/
 contrib /usr/share/javascript/strophe/
-
-doc/* /usr/share/doc/libjs-strophe/html/

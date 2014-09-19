@@ -1,13 +1,9 @@
 #!/usr/bin/make -f
-%:
-	dh $@
 
-override_dh_auto_build:
-	yui-compressor strophe.js -o strophe.min.js
-	for file in plugins/*; do \
-		name=$${file%.js}; \
-		yui-compressor $$name.js -o $$name.min.js; \
-	done
+export YUI_COMPRESSOR=/usr/share/yui-compressor/yui-compressor.jar
+
+%:
+	dh $@ -- make
 
 override_dh_auto_clean:
 	rm -f strophe.min.js
