@@ -5,7 +5,7 @@ Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
 Uploaders: Marcelo Jorge Vieira (metal) <metal@debian.org>
 Build-Depends: debhelper (>= 8.0.0), yui-compressor
 Standards-Version: 3.9.5
-Homepage: http://code.stanziq.com/strophe/
+Homepage: http://strophe.im/strophejs/
 Vcs-Git: git://git.debian.org/git/pkg-xmpp/strophejs.git
 Vcs-Browser: http://git.debian.org/?p=pkg-xmpp/strophejs.git;a=summary
 

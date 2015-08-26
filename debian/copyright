@@ -1,6 +1,6 @@
 Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
 Upstream-Name: strophejs
-Upstream-Source: http://code.stanziq.com/cgit/strophe/strophejs/snapshot/
+Upstream-Source: https://github.com/strophe/strophejs
 
 Files: *
 Copyright: (c) 2006-2008, OGG, LLC
